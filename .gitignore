@@ -1,0 +1,14 @@
+# Pasta de arquivos pessoais
+Viviane/
+
+# Banco de dados SQLite (gerado automaticamente pelo backend)
+database.sqlite
+
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+
+# Logs
+*.log
