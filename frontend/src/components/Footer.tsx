@@ -3,15 +3,13 @@ import styled from 'styled-components'
 const StyledFooter = styled.footer`
   background: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.surface};
-  padding: 1.5rem 1rem 2rem;
+  padding: 1.5rem 1.25rem 2rem;
   padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
-  margin-top: 3rem;
   text-align: center;
   border-top: 2px solid ${({ theme }) => theme.colors.primaryDark};
 
   @media (min-width: 600px) {
     padding: 2.5rem 2rem;
-    margin-top: 4rem;
   }
 `
 
@@ -46,7 +44,7 @@ export function Footer() {
     <StyledFooter>
       <Content>
         <Text>
-          <Brand>Viviane Balas</Brand> — Biscoitos e doces artesanais
+          <Brand>Viviane Balas e Biscoitos Artesanais</Brand>
         </Text>
         <Copy>© Todos os direitos reservados</Copy>
       </Content>

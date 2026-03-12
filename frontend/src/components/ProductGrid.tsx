@@ -11,14 +11,14 @@ const WA_HREF =
 const Section = styled.section`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem 3rem;
+  padding: 2rem 1.25rem 3rem;
 
   @media (min-width: 600px) {
     padding: 3rem 2rem 4rem;
   }
 `
 
-const SectionTitle = styled.h3`
+const SectionTitle = styled.h2`
   font-family: ${({ theme }) => theme.fonts.heading};
   font-size: 1.75rem;
   color: ${({ theme }) => theme.colors.primaryDark};
