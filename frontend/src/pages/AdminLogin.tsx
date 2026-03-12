@@ -189,7 +189,7 @@ export function AdminLogin() {
   return (
     <Wrapper>
       <TopBar>
-        <Brand to="/">Vivi Balas</Brand>
+        <Brand to="/">Viviane Balas</Brand>
         <AdminLabel>Área administrativa</AdminLabel>
         <BackToSite to="/">← Voltar ao site</BackToSite>
       </TopBar>

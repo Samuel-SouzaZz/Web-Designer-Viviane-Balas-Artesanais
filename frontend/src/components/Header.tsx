@@ -256,8 +256,8 @@ export function Header() {
           <HiOutlineDotsVertical />
         </MenuButton>
 
-        <LogoLink href="#inicio" aria-label="Vivi Balas - Início">
-          <LogoImage src="/logo.png" alt="Vivi Balas e Biscoitos Artesanais" />
+        <LogoLink href="#inicio" aria-label="Viviane Balas e Biscoitos Artesanais - Início">
+          <LogoImage src="/logo.png" alt="Viviane Balas e Biscoitos Artesanais" />
         </LogoLink>
 
         <DesktopLinks>

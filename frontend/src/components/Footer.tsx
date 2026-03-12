@@ -46,7 +46,7 @@ export function Footer() {
     <StyledFooter>
       <Content>
         <Text>
-          <Brand>Vivi Balas</Brand> — Originais balas e biscoitos artesanais
+          <Brand>Viviane Balas</Brand> — Biscoitos e doces artesanais
         </Text>
         <Copy>© Todos os direitos reservados</Copy>
       </Content>
