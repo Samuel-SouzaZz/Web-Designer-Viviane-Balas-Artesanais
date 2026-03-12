@@ -60,24 +60,19 @@ const MenuButton = styled.button`
 const LogoLink = styled.a`
   display: flex;
   align-items: center;
-  height: 68px;
-  margin-left: 0;
-
-  @media (min-width: 600px) {
-    height: 100px;
-    margin-left: 0;
-  }
+  text-decoration: none;
 `
 
-const LogoImage = styled.img`
-  height: 68px;
-  width: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 1px 4px rgba(92, 92, 66, 0.25));
+const LogoText = styled.span`
+  font-family: ${({ theme }) => theme.fonts.heading};
+  font-size: 1.35rem;
+  font-weight: normal;
+  color: ${({ theme }) => theme.colors.primaryDark};
+  line-height: 1.2;
+  letter-spacing: 0.01em;
 
   @media (min-width: 600px) {
-    height: 100px;
-    filter: drop-shadow(0 2px 6px rgba(92, 92, 66, 0.2));
+    font-size: 1.65rem;
   }
 `
 
@@ -259,7 +254,7 @@ export function Header() {
         </MenuButton>
 
         <LogoLink href="#inicio" aria-label="Viviane Balas e Biscoitos Artesanais - Início">
-          <LogoImage src="/logo.png" alt="Viviane Balas e Biscoitos Artesanais" />
+          <LogoText>Viviane Balas e Biscoitos Artesanais</LogoText>
         </LogoLink>
 
         <DesktopLinks>
