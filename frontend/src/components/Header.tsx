@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import { HiOutlineDotsVertical } from 'react-icons/hi'
 
 const StyledHeader = styled.header`
-  background: ${({ theme }) => theme.colors.secondary};
+  background: ${({ theme }) => theme.colors.tertiary};
   padding: 0.75rem 1rem;
   box-shadow: ${({ theme }) => theme.shadows.sm};
-  border-bottom: 2px solid ${({ theme }) => theme.colors.primary};
+  border-bottom: 2px solid ${({ theme }) => theme.colors.primaryDark};
   position: relative;
 
   @media (min-width: 600px) {
@@ -60,7 +60,7 @@ const MenuButton = styled.button`
 const LogoLink = styled.a`
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 68px;
   margin-left: 0;
 
   @media (min-width: 600px) {
@@ -70,12 +70,14 @@ const LogoLink = styled.a`
 `
 
 const LogoImage = styled.img`
-  height: 60px;
+  height: 68px;
   width: auto;
   object-fit: contain;
+  filter: drop-shadow(0 1px 4px rgba(92, 92, 66, 0.25));
 
   @media (min-width: 600px) {
     height: 100px;
+    filter: drop-shadow(0 2px 6px rgba(92, 92, 66, 0.2));
   }
 `
 

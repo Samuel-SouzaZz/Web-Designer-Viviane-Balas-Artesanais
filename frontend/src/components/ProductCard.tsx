@@ -9,6 +9,8 @@ const Card = styled.article`
   overflow: hidden;
   box-shadow: ${({ theme }) => theme.shadows.sm};
   transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
 
   &:hover {
     box-shadow: ${({ theme }) => theme.shadows.md};
@@ -42,6 +44,9 @@ const Placeholder = styled.div`
 
 const Content = styled.div`
   padding: 1rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 `
 
 const Category = styled.span`
@@ -73,6 +78,7 @@ const ShortDesc = styled.p`
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  flex: 1 1 auto;
 `
 
 const CardButton = styled.button`
